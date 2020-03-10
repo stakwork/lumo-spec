@@ -36,7 +36,8 @@ interface Chat {
     uuid: string; // unique ID 
     type: ChatType;
     name?: string; // Chat room name
-    members?: {[pub_key:string]: ChatMember}
+    members?: {[pub_key:string]: ChatMember};
+    rsa_sig?: string;
 }
 enum ChatType {
     conversation,
