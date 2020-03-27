@@ -1,18 +1,18 @@
 # LUMO: Lightning Universal Messaging Objects
 
-`LUMO` is a data format and set of utility libraries for sending messages over the Lighting Network. It includes capabilites for scenarios such as:
+`LUMO` is a data format and set of utility libraries for sending messages over the Lighting Network. It supports:
 
  - messages with confirmations
  - end-to-end encryption
- - sending and receiving BTC payments
+ - media and file attachments
+ - sending and receiving satoshis (bitcoin)
  - automatically creating new contacts from messages
  - group chats, with admins and mods
- - media and file attachments
  - buying and selling access to media
 
 ### Why chat on Lightning?
 
-`LUMO` messages are sent as Lightning Network `keysend` invoices, so BTC micropayments are supported natively. Each message sends a mimimum of 1 satoshi. Lightning-based chat incentivizes the creation of Lighting Network "hubs" (nodes that manage channels with large amounts of other nodes), and provides built-in mechanisms for monetizing other digital services (such as file storage). Our apps built with `LUMO` aim to enable secure and private chat, as well as empowering content producers to sell their digital creations online.
+`LUMO` messages are sent as Lightning Network keysend invoices, so micropayments on top of the bitcoin base layer are supported natively. Lightning-based chat provides built-in mechanisms for monetizing other online services (such as file storage). LUMO's aim is to make it easier for developers to build Lightning apps that are interoperable.
 
 ### spec
 
