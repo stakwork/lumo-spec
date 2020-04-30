@@ -75,7 +75,6 @@ interface Chat {
     type: ChatType;
     name?: string; // Chat room name
     members?: {[pub_key:string]: ChatMember};
-    rsa_sig?: string;
 }
 enum ChatType {
     conversation,
@@ -109,6 +108,6 @@ interface Message {
     mediaType?: string;
     mediaToken?: MediaToken;
 }
- // see mediaTokens.md for details
+ // see mediaToken.md for details
 interface MediaToken extends String{};
 ```
