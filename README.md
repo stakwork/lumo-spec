@@ -75,10 +75,13 @@ interface Chat {
     type: ChatType;
     name?: string; // Chat room name
     members?: {[pub_key:string]: ChatMember};
+    group_key?: string; // group admin encryption public key
+    host?: string; // host of sphinx-tribes server
 }
 enum ChatType {
     conversation,
     group,
+    public_group
 }
 interface ChatMember {
     key: string;
