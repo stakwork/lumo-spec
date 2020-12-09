@@ -23,7 +23,20 @@ enum Type {
     group_invite,
     group_join,
     group_leave,
-    group_query,
+    group_kick,
+    delete,
+    repayment,
+    member_request,
+    member_approve,
+    member_reject,
+    tribe_delete,
+    bot_install,
+    bot_cmd,
+    bot_res,
+    heartbeat,
+    heartbeat_confirmation,
+    keysend,
+    boost,
 }
 
 interface Contact {
@@ -59,11 +72,13 @@ enum ChatRole {
 
 interface Message {
     id: number;
+    uuid: string;
     content: string; // encrypted with RSA key
     amount: number;
     invoice: string;
     mediaKey: string;
     mediaType: string;
     mediaToken: MediaToken;
+    replyUuid: string;
 }
 interface MediaToken extends String{};
