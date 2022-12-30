@@ -49,7 +49,22 @@ enum Type {
     group_invite,
     group_join,
     group_leave,
-    group_query,
+    group_kick,
+    delete,
+    repayment,
+    member_request,
+    member_approve,
+    member_reject,
+    tribe_delete,
+    bot_install,
+    bot_cmd,
+    bot_res,
+    heartbeat,
+    heartbeat_confirmation,
+    keysend, // no e2e
+    boost,
+    query,
+    query_response,
 }
 ```
 
