@@ -63,4 +63,34 @@ After receiving an RSA public key from a contact, share yours as well.
 
 ### 15. Group Leave
 
-### 16. Group Leave
+### 16. Group Kick
+
+### 17. delete
+
+### 18. repayment
+
+### 19. Member Request
+
+### 20. Member Approve
+
+### 21. Member Reject
+
+### 22. Tribe Delete
+
+### 23. Bot Install
+
+### 24. Bot CMD
+
+### 25. Bot Res
+
+### 26. HeartBeat
+
+### 27. HeartBeat Confirmation
+
+### 28. Keysend
+
+### 29. Boost
+
+### 30. Query
+
+### 31. Query Response
